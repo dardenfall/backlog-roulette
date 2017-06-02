@@ -41,9 +41,6 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   if(state !== "clicked"){
     return;
   }
-  else{
-    state = "notclicked";
-  }
 
   getOptions().then(function(options){
     var profileUrl = options['profileUrl'];
@@ -57,6 +54,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     // make sure the status is 'complete' and it's the right tab
     if (changeInfo.status == 'complete' && tab.url === page) {
       chrome.tabs.sendMessage(tabId, {foo:"bar"})
+      state = "notclicked";
     }
   })
 
