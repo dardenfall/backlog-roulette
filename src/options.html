@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Options - Backlog Roulette</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+	body{
+	  margin-left: 10px;
+	}
+
+	h2{
+	  margin-bottom: 2px;
+	}
+
+	label{
+	  margin-right: 10px;
+	}
+	button{
+		font-size: small;
+	}
+</style>
+</head>
+<body>
+
+<h4>options - backlog roulette</h4>
+<hr>
+<div>
+	<label for="profile-url">profile url:  </label>
+	<input id="profile-url" size="60" type="url" value="">
+	<button id="whats-this-button">What's this?</button>
+
+</div>
+<div>
+<label for="unplayed-only">open only unplayed games in backlog: </label>
+<input type="checkbox" id="unplayed-only" checked>
+</div>
+
+<button id="save">Save</button>
+<div id="status"></div>
+<script src="options.js"></script>
+
+</body>
+</html>
