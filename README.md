@@ -12,8 +12,7 @@ If the game is not currently installed on your machine, this will result in an i
 to start it via the steam download complete poppup.  If the game is already installed, it should just start.
 
 ## install
-Download the br.crx file.  Open chrome extensions page: settings -> more tools -> extensions. Drag the br.crx file onto the 
-page. Click to allow the install.
+I don't have a google dev account (and I'm not spending the $25 just for this) so this isn't in the chrome/play store.  Here's a link that explains how to install thirdparty extensions: https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually/
 
 ## known issues:
 If you have games in your backlog that do not work on the current platform, the install will fail
